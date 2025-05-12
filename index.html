@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProUp Pitch</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white text-center py-8">
+    <h1 class="text-5xl font-bold">ProUp</h1>
+    <p class="mt-2 text-xl">Connecting Startups with Investors</p>
+  </header>
+
+  <!-- Problem Section -->
+  <section id="problem" class="py-16 px-4 bg-white">
+    <div class="container mx-auto max-w-4xl">
+      <h2 class="text-3xl font-semibold text-center text-blue-600">The Problem</h2>
+      <div class="mt-8 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2">
+          <p class="text-lg">
+            Startups often struggle to find the right investors. Many fail due to lack of funding and connections. Investors also find it hard to discover startups that match their interests, resulting in missed opportunities.
+          </p>
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0">
+          <img src="images/s1.jpg" alt="Problem Image" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section id="solution" class="py-16 px-4 bg-gray-50">
+    <div class="container mx-auto max-w-4xl">
+      <h2 class="text-3xl font-semibold text-center text-blue-600">Solution: ProUp</h2>
+      <div class="mt-8 flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2">
+          <p class="text-lg">
+            ProUp is a mobile app that connects startups with potential investors using AI-powered matchmaking, in-app messaging, and growth tools. Our platform helps startups showcase their potential to the right investors, while providing investors with the best opportunities to grow their portfolio.
+          </p>
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0">
+          <img src="images/s2.jpg" alt="Solution Image" class="rounded-lg shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Section -->
+  <section id="features" class="py-16 px-4">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-3xl font-semibold text-blue-600">Key Features</h2>
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="feature-card">
+          <img src="images/s3.jpg" alt="Feature 1" class="rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold">AI-based Matchmaking</h3>
+          <p class="text-lg">Personalized matchmaking using AI to connect startups with investors based on interests, needs, and goals.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/s4.jpg" alt="Feature 2" class="rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold">Investor Dashboard</h3>
+          <p class="text-lg">Advanced filters and analytics to help investors easily find startups that match their criteria.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/s5.jpg" alt="Feature 3" class="rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold">In-app Messaging</h3>
+          <p class="text-lg">Facilitate communication between startups and investors directly within the platform, fostering meaningful connections.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/s6.jpg" alt="Feature 4" class="rounded-full mx-auto mb-4">
+          <h3 class="text-xl font-semibold">Meeting Scheduler</h3>
+          <p class="text-lg">Built-in scheduling tool to arrange meetings between startups and investors at convenient times.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-4 bg-blue-100">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-3xl font-semibold text-blue-600">Let's Build the Future Together!</h2>
+      <button onclick="showMessage()" class="mt-8 px-6 py-3 bg-blue-600 text-white text-xl rounded-lg hover:bg-blue-700 transition-all">Contact Us</button>
+      <p id="contact-msg" class="mt-4 text-lg text-green-600"></p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-8 bg-blue-600 text-white text-center">
+    <p>&copy; 2025 ProUp. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
